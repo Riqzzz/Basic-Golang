@@ -3,9 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var name string
-
-	name = "Mr.Towick"
+	var name = "Mr.Towick" //deklrasai variable tanpa deklarasi tipe datanya apa
 	fmt.Println(name)
 
 	name = "Mr.Riqzzz"
