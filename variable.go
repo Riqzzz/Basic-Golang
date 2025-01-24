@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var name = "Mr.Towick" //deklrasai variable tanpa deklarasi tipe datanya apa
+	name := "Mr.Towick" //cara singkat/lain deklarasi variable dengan := diawal saja
 	fmt.Println(name)
 
 	name = "Mr.Riqzzz"
