@@ -8,10 +8,12 @@ import "fmt"
 func main() {
 	type noTelp string
 
-	var noTowick noTelp = "111111"
+	var (
+		noTowick noTelp = "111111"
 
-	var sample string = "222222"
-	var sampleTelp noTelp = noTelp(sample)
+		sample     string = "222222"
+		sampleTelp noTelp = noTelp(sample)
+	)
 	// sampleTlp menggunakan tipedata noTelp pada noTowick sebelumnya dengan output yg ditampung pada tipedata
 	// noTelp dari variable sample
 
