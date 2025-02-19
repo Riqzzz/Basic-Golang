@@ -11,11 +11,7 @@ func main() {
 
 	fmt.Println(names[0], names[1], names[2])
 
-	var nilai [3]int = [3]int{
-		90,
-		80,
-		70,
-	}
+	var nilai = [3]int{90, 80, 70}
 
 	fmt.Println(nilai)
 }
